@@ -101,3 +101,25 @@ p {
     position: fixed;
   }
 }
+@media screen and (max-width: 350px) {
+  h2 {
+    font-size: 11px;
+  }
+  p {
+    font-size: 7px;
+    text-align: center;
+    top: 0;
+  }
+  img {
+    width: 240px;
+  }
+  .content {
+    width: fit-content;
+    top: 38%;
+  }
+  button {
+    font-size: 13px;
+    bottom: 130px;
+    position: fixed;
+  }
+}
