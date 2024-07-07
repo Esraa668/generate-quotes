@@ -72,9 +72,30 @@ p {
   }
   .content {
     width: 80%;
+    top: 30%;
   }
   button {
     font-size: 15px;
+    bottom: 120px;
+    position: fixed;
+  }
+}
+@media screen and (max-width: 350px) {
+  h2 {
+    font-size: 12px;
+  }
+  p {
+    font-size: 8px;
+    text-align: center;
+  }
+  img {
+    width: 280px;
+  }
+  .content {
+    width: 90%;
+  }
+  button {
+    font-size: 13px;
     bottom: 120px;
     position: fixed;
   }
