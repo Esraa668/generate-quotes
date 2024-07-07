@@ -42,14 +42,17 @@ p {
 .content {
   width: 500px;
   height: 200px;
-  top: 45%;
+  top: 40%;
 }
 @media screen and (max-width: 550px) {
   img {
     width: 380px;
   }
   h2 {
-    font-size: 25px;
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
   }
   .content {
     width: 60%;
@@ -58,15 +61,21 @@ p {
 }
 @media screen and (max-width: 450px) {
   h2 {
-    font-size: 20px;
+    font-size: 15px;
+  }
+  p {
+    font-size: 10px;
+    text-align: center;
   }
   img {
     width: 300px;
   }
   .content {
-    width: fit-content;
+    width: 80%;
   }
   button {
     font-size: 15px;
+    bottom: 120px;
+    position: fixed;
   }
 }
